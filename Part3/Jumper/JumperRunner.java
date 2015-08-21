@@ -5,10 +5,16 @@ import info.gridworld.grid.Location;
 
 import java.awt.Color;
 
+/**
+ * This class runs a world that contains box bugs. <br />
+ * This class is not tested on the AP CS A and AB exams.
+ */
 public final class JumperRunner {
 
-    private JumperRunner() {
-    }
+	/**
+	 * Construct a jumperRunner.
+	 */
+    private JumperRunner() {}
 
     public static void main(String[] args) {
         ActorWorld world = new ActorWorld();
